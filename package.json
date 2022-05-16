@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "name": "ppter-dev",
+  "description": "Automation Application for PPTER",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"node index.js\" \"node index.js\" \"node index.js\" \"node index.js\"",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ppter",
+    "automation",
+    "application"
+  ],
+  "author": "Hesam",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.0",
+    "puppeteer": "^14.1.0",
+    "unique-names-generator": "^4.7.1"
+  }
+}
