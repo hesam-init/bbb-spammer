@@ -1,0 +1,3 @@
+// Puppeteer Error on ubuntu 100% Correct Solution by Vivek
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
